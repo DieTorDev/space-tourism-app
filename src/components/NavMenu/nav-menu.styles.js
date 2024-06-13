@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const StyledNavMenu = styled.nav`
+	display: flex;
+	justify-content: end;
+	padding-right: 123px;
 	width: 830px;
 	height: 96px;
-	padding-right: 123px;
 	backdrop-filter: blur(40px);
 	font-family: 'Barlow Condensed', sans-serif;
 	position: relative;
