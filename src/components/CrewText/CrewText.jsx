@@ -1,3 +1,4 @@
+import CrewTab from '../CrewTab/CrewTab';
 import {
 	StyledCrewInfo,
 	StyledCrewName,
@@ -15,6 +16,7 @@ const CrewText = ({ crew, setCrew }) => {
 			<StyledCrewRank>{crew.rank.toUpperCase()}</StyledCrewRank>
 			<StyledCrewName>{crew.name.toUpperCase()}</StyledCrewName>
 			<StyledCrewInfo>{crew.text}</StyledCrewInfo>
+			<CrewTab crew={crew} setCrew={setCrew} />
 		</StyledCrewText>
 	);
 };

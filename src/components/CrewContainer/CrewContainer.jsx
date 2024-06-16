@@ -9,7 +9,7 @@ const CrewContainer = () => {
 	return (
 		<StyledCrewContainer>
 			<CrewText crew={CREW_DATA[crew]} setCrew={setCrew} />
-			<img src='/assets/crew/image-douglas-hurley.webp' alt='' />
+			<img src={CREW_DATA[crew].img} alt={CREW_DATA[crew].name} />
 		</StyledCrewContainer>
 	);
 };
