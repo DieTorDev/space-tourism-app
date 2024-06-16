@@ -8,6 +8,7 @@ const StyledNavMenu = styled.nav`
 	width: 830px;
 	height: 96px;
 	backdrop-filter: blur(40px);
+	background-color: rgb(255, 255, 255, 0.05);
 	font-family: 'Barlow Condensed', sans-serif;
 	position: relative;
 
